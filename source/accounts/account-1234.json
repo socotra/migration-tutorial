@@ -1,0 +1,14 @@
+{
+    "policies": [
+        "policy-1000",
+        "policy-1001",
+        "policy-1002"
+    ],
+    "type": "SampleAccount",
+    "billing": "policy",
+    "created": "2024-08-29T22:40:11.538Z",
+    "fields": {
+        "firstName": "Ambrose",
+        "lastName": "Bierce"
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "data" : {
+    "firstName" : {
+      "displayName" : "First Name",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "middleName" : {
+      "displayName" : "Middle Name",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "lastName" : {
+      "displayName" : "Last Name",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "age" : {
+      "type" : "decimal"
+    }
+  },
+  "abstract" : false
+}

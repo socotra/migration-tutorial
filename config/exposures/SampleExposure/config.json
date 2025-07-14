@@ -1,0 +1,11 @@
+{
+  "contents" : [ "SampleCoverage?" ],
+  "data" : {
+    "sampleExpField" : {
+      "type" : "string",
+      "maxLength" : 20000,
+      "options" : [ "Option1", "Option2", "Option3", "Option4", "Option5", "Option6" ]
+    }
+  },
+  "abstract" : false
+}

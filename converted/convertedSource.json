@@ -1,0 +1,146 @@
+[
+    {
+        "accountData": {
+            "id": "1234",
+            "accountType": "SampleAccount",
+            "data": {
+                "firstName": "Ambrose",
+                "lastName": "Bierce"
+            },
+            "billingLevel": "policy",
+            "createdAt": "2024-08-29T22:40:11.538Z"
+        },
+        "defaultCreatedBy": "dc68c494-6918-487a-bf08-58c2983175dc",
+        "policies": [
+            {
+                "id": "policy_1000",
+                "productName": "SampleProduct",
+                "timezone": "America/New_York",
+                "currency": "USD",
+                "billingLevel": "inherit",
+                "durationBasis": "months",
+                "createdAt": "2024-11-01T01:01:00Z",
+                "terms": [
+                    {
+                        "startTime": "2025-01-01T01:01:00Z",
+                        "endTime": "2025-07-01T00:01:00Z",
+                        "transactions": [
+                            {
+                                "transactionType": "issuance",
+                                "createdAt": "2024-11-01T01:01:00Z",
+                                "issuedTime": "2025-12-01T01:01:00Z",
+                                "segment": {
+                                    "rootElement": {
+                                        "id": "a7d47ab8-b4cc-4f7c-a5f3-2fcaa5413a66",
+                                        "elementType": "SampleProduct"
+                                    },
+                                    "segmentType": "coverage",
+                                    "startTime": "2025-01-01T01:01:00Z"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "policy_1001",
+                "productName": "SampleProduct",
+                "timezone": "America/New_York",
+                "currency": "USD",
+                "billingLevel": "inherit",
+                "durationBasis": "months",
+                "createdAt": "2025-01-01T01:01:00Z",
+                "terms": [
+                    {
+                        "startTime": "2026-01-01T01:01:00Z",
+                        "endTime": "2027-01-01T00:01:00Z",
+                        "transactions": [
+                            {
+                                "transactionType": "issuance",
+                                "createdAt": "2025-01-01T01:01:00Z",
+                                "issuedTime": "2026-01-01T01:01:00Z",
+                                "segment": {
+                                    "rootElement": {
+                                        "id": "1f0f43c0-c0bf-4548-a3d1-57a39db44286",
+                                        "elementType": "SampleProduct"
+                                    },
+                                    "segmentType": "coverage",
+                                    "startTime": "2026-01-01T01:01:00Z"
+                                }
+                            },
+                            {
+                                "transactionType": "change",
+                                "createdAt": "2025-01-01T01:01:00Z",
+                                "issuedTime": "2026-01-01T01:01:00Z",
+                                "segment": {
+                                    "rootElement": {
+                                        "id": "1f0f43c0-c0bf-4548-a3d1-57a39db44286",
+                                        "elementType": "SampleProduct"
+                                    },
+                                    "segmentType": "coverage",
+                                    "startTime": "2026-01-01T01:01:00Z"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "policy_1002",
+                "productName": "SampleProduct",
+                "timezone": "America/New_York",
+                "currency": "USD",
+                "billingLevel": "inherit",
+                "durationBasis": "months",
+                "createdAt": "2025-01-01T01:01:00Z",
+                "terms": [
+                    {
+                        "startTime": "2026-01-01T01:01:00Z",
+                        "endTime": "2027-01-01T00:01:00Z",
+                        "transactions": [
+                            {
+                                "transactionType": "issuance",
+                                "createdAt": "2025-01-01T01:01:00Z",
+                                "issuedTime": "2026-01-01T01:01:00Z",
+                                "segment": {
+                                    "rootElement": {
+                                        "id": "ecfe4b64-bca1-43c7-9aab-1693e4ee2f17",
+                                        "elementType": "SampleProduct"
+                                    },
+                                    "segmentType": "coverage",
+                                    "startTime": "2026-01-01T01:01:00Z"
+                                }
+                            },
+                            {
+                                "transactionType": "change",
+                                "createdAt": "2025-01-01T01:01:00Z",
+                                "issuedTime": "2026-01-01T01:01:00Z",
+                                "segment": {
+                                    "rootElement": {
+                                        "id": "ecfe4b64-bca1-43c7-9aab-1693e4ee2f17",
+                                        "elementType": "SampleProduct"
+                                    },
+                                    "segmentType": "coverage",
+                                    "startTime": "2026-01-01T01:01:00Z"
+                                }
+                            },
+                            {
+                                "transactionType": "cancellation",
+                                "createdAt": "2025-01-01T01:01:00Z",
+                                "issuedTime": "2026-01-01T01:01:00Z",
+                                "segment": {
+                                    "rootElement": {
+                                        "id": "ecfe4b64-bca1-43c7-9aab-1693e4ee2f17",
+                                        "elementType": "SampleProduct"
+                                    },
+                                    "segmentType": "gap",
+                                    "startTime": "2026-01-01T01:01:00Z"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

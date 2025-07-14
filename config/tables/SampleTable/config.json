@@ -1,0 +1,13 @@
+{
+  "columns" : {
+    "sampleColumn1" : {
+      "dataType" : "string",
+      "isKey" : true
+    },
+    "sampleColumn2" : {
+      "dataType" : "decimal",
+      "isKey" : false
+    }
+  },
+  "selectionTimeBasis" : "policyStartTime"
+}

@@ -1,0 +1,15 @@
+{
+  "defaultTermDuration" : 6,
+  "displayName" : "Sample Product",
+  "coverageTerms" : [ "SampleLimit?" ],
+  "eligibleAccountTypes" : [ "SampleAccount" ],
+  "contents" : [ "SampleExposure?" ],
+  "documents" : [ "SampleDocument" ],
+  "data" : {
+    "sampleField" : {
+      "type" : "string?",
+      "maxLength" : 20000
+    }
+  },
+  "abstract" : false
+}

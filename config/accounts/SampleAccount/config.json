@@ -1,0 +1,17 @@
+{
+  "displayName" : "Sample",
+  "data" : {
+    "firstName" : {
+      "displayName" : "First Name",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "lastName" : {
+      "displayName" : "Last Name",
+      "type" : "string",
+      "minLength" : 2,
+      "maxLength" : 20000
+    }
+  },
+  "abstract" : false
+}

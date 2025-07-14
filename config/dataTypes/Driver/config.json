@@ -1,0 +1,11 @@
+{
+  "extend" : "Person",
+  "data" : {
+    "licenseNum" : {
+      "displayName" : "License Number",
+      "type" : "string",
+      "maxLength" : 20000
+    }
+  },
+  "abstract" : false
+}

@@ -1,0 +1,15 @@
+{
+    "created": "2025-01-01T01:01:00Z",
+    "issued": "2026-01-01T01:01:00Z",
+    "start": "2026-01-01T01:01:00Z",
+    "type": "cancellation",
+    "elements": [
+        {
+            "elementType": "SampleExposure",
+            "id": "333-222",
+            "data": {
+                "sampleExpField": "Option3"
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "defaultTimeZone" : "America/New_York",
+  "defaultCurrency" : "USD",
+  "defaultTermDuration" : 12,
+  "defaultInstallmentPlan" : "SampleInstallmentPlan",
+  "defaultDurationBasis" : "months",
+  "defaultBillingTrigger" : "issue",
+  "defaultBackdatedInstallmentsBilling" : "deferDueDate",
+  "defaultDelinquencyPlan" : "Standard",
+  "defaultAutoRenewalPlan" : "SampleAutoRenewPlan",
+  "defaultExcessCreditPlan" : "Standard",
+  "defaultAuxDataSettings" : "SampleAuxDataSetting"
+}
